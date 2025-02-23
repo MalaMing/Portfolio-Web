@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local"
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 
 const SFPro = localFont({
@@ -45,8 +46,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${SFPro.className} antialiased`}
+        className={`${SFPro.className} antialiased bg-the`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>

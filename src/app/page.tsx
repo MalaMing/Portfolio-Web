@@ -1,8 +1,9 @@
 
 export default function Home() {
   return (
-    <div className="font-">
-      hihihi
+    
+    <div className="font-bold">
+
     </div>
   );
 }

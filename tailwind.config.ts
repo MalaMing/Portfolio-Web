@@ -11,11 +11,13 @@ export default {
     extend: {
       colors: {
         "black-theme" : {
+          hoverWhite : "rgba(255, 255, 255, 0.6)",
           white : "#FFFFFF",
           whereWhite : "#F8F8F8",
           whereGrey : "#C8C8C8",
           grey: "#5B5B5C",
           whereBlack: "#161617",
+          hoverWhereBlack : "rgba(0,0,0,0.6)",
           black: "#000000",
           background: 'hsl(var(--background))',
           foreground: 'hsl(var(--foreground))'
