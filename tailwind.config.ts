@@ -1,3 +1,4 @@
+import { text } from "stream/consumers";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,8 +10,25 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "black-theme" : {
+          white : "#FFFFFF",
+          whereWhite : "#F8F8F8",
+          whereGrey : "#C8C8C8",
+          grey: "#5B5B5C",
+          whereBlack: "#161617",
+          black: "#000000",
+          background: 'hsl(var(--background))',
+          foreground: 'hsl(var(--foreground))'
+        }
+      },
+      fontSize: {
+        xs : "12",
+        sm : "14",
+        base : "16",
+        lg : "18",
+        '2xl' : "24",
+        '4xl' : "32",
+        '5xl' : "48",
       },
     },
   },
