@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${SFPro.className} antialiased bg-the`}
+        className={`${SFPro.className} antialiased`}
       >
         <Navbar/>
         {children}
